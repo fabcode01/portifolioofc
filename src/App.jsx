@@ -38,13 +38,13 @@ function App() {
           </div>
           <div className="dropdown-content">
             <span>
-              <i class="fa-brands fa-square-whatsapp"></i>
+              <a href="https://wa.me/+5511987440654"><i class="fa-brands fa-square-whatsapp" target="_blank"></i></a>
             </span>
             <span>
-              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/fabricio-silva-246a12273" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </span>
             <span>
-              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:fabricio2silva8@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             </span>
           </div>
         </div>
@@ -188,13 +188,13 @@ function App() {
           <div className="descFooter">
             <h2>Vamos trabalhar juntos?</h2>
             <span>
-              <i class="fa-brands fa-square-whatsapp"></i>
+              <a href="https://wa.me/+5511987440654"><i class="fa-brands fa-square-whatsapp" target="_blank"></i></a>
             </span>
             <span>
-              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/fabricio-silva-246a12273" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </span>
             <span>
-              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:fabricio2silva8@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             </span>
           
           </div>

@@ -117,7 +117,7 @@ section span{
  
 }
 
-.dropdown-content span{
+.dropdown-content a{
   color: white;
   font-size: 2em;
   cursor: pointer;
@@ -127,7 +127,7 @@ section span{
   transition: all 0.5s;
 }
 
-.dropdown-content span:hover{
+.dropdown-content a:hover{
   scale: 1.05;
   color: #5757c9;
 }
@@ -273,14 +273,25 @@ footer{
 
 }
 
-footer .descFooter{
-
+footer .descFooter, 
+.descFooter a{
+  
   color: white;
   text-align: center;
  
 
-  
 }
+
+.descFooter a{
+  font-size: 1.3em;
+}
+
+.descFooter a:hover{
+  scale: 1.05;
+  color: #5757c9;
+}
+
+
 .descFooter i{
   margin: 25px 5px;
   font-size: 2em;
@@ -314,3 +325,4 @@ footer p{
   color: white;
   cursor: pointer;
 }
+
