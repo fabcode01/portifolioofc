@@ -1,0 +1,316 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+ 
+}
+
+body{
+  background-color: #000017;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+
+
+
+.name{
+  color: white;
+}
+
+.ancoras{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.fa-diagram-project, .fa-user{
+  font-size: 1.7em;
+  color: #9898ec;
+
+  cursor: pointer;
+}
+
+
+
+.imgTelas{
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  width: 250px;
+}
+
+.arrow-down{
+  position: sticky;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 60px;
+
+}
+
+
+
+
+section{
+  
+  width: 90%;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+section span{
+  color: #799de6;
+}
+
+.dropdown{
+ 
+  margin-top: 20px;
+}
+
+.btn-contato{
+  
+  background-color: #5757c9;
+  padding: 15px 70px;
+  border-radius: 10px;
+  user-select: none;
+  font-weight: bold;
+}
+
+.btn:hover{
+  scale: 1.05;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 80px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  background-color: #00003d;
+  gap: 15px;
+ 
+ 
+}
+
+.dropdown-content span{
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.btn-contato > i{
+  transition: all 0.5s;
+}
+
+.dropdown-content span:hover{
+  scale: 1.05;
+  color: #5757c9;
+}
+
+
+.dropdown:hover .dropdown-content{
+  display: flex;
+  
+}
+
+.dropdown:hover .btn-contato{
+  background-color: #00003d;
+}
+
+.dropdown:hover .btn-contato > i{
+  transform: rotate(180deg);
+}
+
+/*  */
+
+.whoContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  border-radius: 7px;
+  background-color: #00003d;
+  padding: 10px;
+  gap: 9px;
+  padding-bottom: 25px;
+}
+
+.whoPhoto{
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.whoContainer h3{
+  color: #5757c9;
+  margin-bottom: 10px;
+}
+
+.WhoDescTop{
+  color: white;
+}
+.WhoDescTop h5{
+  color: #a1a1fd;
+}
+
+.whoContainer p{
+  color: white;
+  font-size: 0.9em;
+}
+
+
+.stacks{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  gap: 25px;
+  color: white;
+
+  user-select: none;
+ 
+}
+
+.stacks span:hover{
+  color: #5757c9;
+}
+
+/* ++++++++++ */
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+  margin: 40px;
+}
+
+.titulo span{
+  color: #5757c9;
+}
+
+.projetos-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  
+  
+}
+
+.projetos-container > h1{
+  color: white;
+  
+}
+.projetos-container .divLine{
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+
+/* 
+
+*/
+
+
+.conhecimento{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/*  */
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00003D;
+  height: auto;
+  padding:  25px 10px;
+  gap: 30px;
+   
+}
+
+.t-legend-img{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+footer .descFooter{
+
+  color: white;
+  text-align: center;
+ 
+
+  
+}
+.descFooter i{
+  margin: 25px 5px;
+  font-size: 2em;
+}
+
+footer img{
+  width: 150px;
+
+}
+
+footer p{
+  font-weight: bold;
+}
+
+.creditosStorySet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.creditosStorySet a{
+
+  text-decoration: none;
+  color: #799de6;
+  font-size: 0.7em;
+  
+}
+
+.creditos{
+  color: white;
+  cursor: pointer;
+}
