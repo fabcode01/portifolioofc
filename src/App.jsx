@@ -38,7 +38,7 @@ function App() {
           </div>
           <div className="dropdown-content">
             <span>
-              <a href="https://wa.me/+5511987440654"><i class="fa-brands fa-square-whatsapp" target="_blank"></i></a>
+              <a href="https://wa.me/+5511987440654" target="_blank"><i class="fa-brands fa-square-whatsapp" ></i></a>
             </span>
             <span>
               <a href="https://www.linkedin.com/in/fabricio-silva-246a12273" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -188,7 +188,7 @@ function App() {
           <div className="descFooter">
             <h2>Vamos trabalhar juntos?</h2>
             <span>
-              <a href="https://wa.me/+5511987440654"><i class="fa-brands fa-square-whatsapp" target="_blank"></i></a>
+              <a href="https://wa.me/+5511987440654" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
             </span>
             <span>
               <a href="https://www.linkedin.com/in/fabricio-silva-246a12273" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
