@@ -4,9 +4,9 @@ import tailwindLogo from '../Data/tailwind.png'
 
 const Projetos = ({img, link, github, titulo, legenda, react,firebase,tailwind, html, css, javascript}) => {
 
-  // data-aos="fade-up"
+ 
   return (
-    <div  className={style.container}>
+    <div data-aos="fade-up"  className={style.container}>
       
             <img className={style.imgMockup} src={img} alt="imagem-projeto" />
         
