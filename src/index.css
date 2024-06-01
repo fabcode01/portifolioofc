@@ -24,6 +24,14 @@ nav{
 
 .name{
   color: white;
+  
+}
+
+section h3{
+  font-size: clamp(1rem, 4vw, 2rem);
+  width: 80%;
+  max-width: 704px;
+  margin: auto;
 }
 
 .ancoras{
@@ -154,6 +162,7 @@ section span{
   justify-content: center;
   margin: auto;
   width: 90%;
+  max-width: 700px;
   height: auto;
   border-radius: 7px;
   background-color: #00003d;
@@ -222,8 +231,13 @@ section span{
 .projetos-container{
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: row;
   padding: 10px;
+
+  
   
   
 }

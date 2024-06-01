@@ -205,7 +205,7 @@ function App() {
               alt="art"
             />
           
-            <a href="https://storyset.com/business">illustrations by Storyset</a>
+            <a href="https://storyset.com/business" target="_blank">illustrations by Storyset</a>
           </div>
         </div>
 
